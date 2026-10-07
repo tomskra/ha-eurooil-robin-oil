@@ -1,6 +1,8 @@
 # Eurooil and Robin Oil prices — Home Assistant integration
 
-This custom integration reads public station and fuel-price data for EuroOil and RoBiN OIL. It does not require an account or API key.`r`n`r`n[![BuyMeCoffee][buymecoffeebadge]][buymecoffee] [![Revolut][revolutbadge]][revolut]
+This custom integration reads public station and fuel-price data for EuroOil and RoBiN OIL. It does not require an account or API key.
+
+[![BuyMeCoffee][buymecoffeebadge]][buymecoffee] [![Revolut][revolutbadge]][revolut]
 
 ## Install
 

@@ -4,15 +4,32 @@ This custom integration reads public station and fuel-price data for EuroOil and
 
 [![BuyMeCoffee][buymecoffeebadge]][buymecoffee] [![Revolut][revolutbadge]][revolut]
 
-## Install
+## Installation Instructions
 
-Copy the `custom_components/eurooil` directory into your Home Assistant configuration directory so the resulting path is:
+### Using HACS
 
-```text
-<config>/custom_components/eurooil/
-```
+1. In HACS, open **Integrations**, select the menu in the upper-right corner, and choose **Custom repositories**.
+2. Add `https://github.com/tomskra/ha-eurooil-robin-oil` with the category **Integration**. You can also use this button:
 
-Restart Home Assistant, then open **Settings → Devices & services → Add integration**, search for **Eurooil and Robin Oil prices**, select a station, and choose the fuel types to monitor. All supported fuel types offered at that station are selected by default. Napajedla is available in the station list.
+   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=tomskra&repository=ha-eurooil-robin-oil&category=integration)
+
+3. Find **Eurooil and Robin Oil prices** in HACS and install it.
+4. Restart Home Assistant.
+5. Continue to [Setup Instructions](#setup-instructions).
+
+### Manual install
+
+1. Copy the `custom_components/eurooil` directory from this repository into your Home Assistant configuration directory. The resulting path should be `<config>/custom_components/eurooil/`.
+2. Restart Home Assistant.
+3. Continue to [Setup Instructions](#setup-instructions).
+
+## Setup Instructions
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=eurooil)
+
+1. In Home Assistant, open **Settings → Devices & services → Add integration**. You can use the button above to open this page directly.
+2. Search for **Eurooil and Robin Oil prices** and select the integration.
+3. Choose a station, then select the fuel prices you want to track. Only fuel types available at that station are offered; all supported types are selected by default.
 
 ## Entities
 

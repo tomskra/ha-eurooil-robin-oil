@@ -1,9 +1,13 @@
 {
   "domain": "eurooil",
   "name": "EuroOil",
-  "codeowners": [],
+  "codeowners": [
+    "@tomskra"
+  ],
   "config_flow": true,
   "iot_class": "cloud_polling",
   "requirements": [],
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "documentation": "https://github.com/tomskra/ha-eurooil-robin-oil",
+  "issue_tracker": "https://github.com/tomskra/ha-eurooil-robin-oil/issues"
 }

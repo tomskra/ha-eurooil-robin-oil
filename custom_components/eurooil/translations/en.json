@@ -10,7 +10,7 @@
       },
       "products": {
         "title": "Fuel types",
-        "description": "Select the fuel types available at this station.",
+        "description": "Select the fuel prices you want to track at this station.",
         "data": {
           "products": "Fuel types"
         }

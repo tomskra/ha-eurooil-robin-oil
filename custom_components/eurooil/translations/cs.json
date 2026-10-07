@@ -10,7 +10,7 @@
       },
       "products": {
         "title": "Druhy paliv",
-        "description": "Vyberte druhy paliv dostupné na této stanici.",
+        "description": "Vyberte ceny paliv, které chcete u této stanice sledovat.",
         "data": {
           "products": "Druhy paliv"
         }

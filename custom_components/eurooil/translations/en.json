@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EuroOil",
+        "description": "Select the EuroOil station whose fuel prices you want to monitor.",
+        "data": {
+          "station_id": "Station"
+        }
+      },
+      "products": {
+        "title": "Fuel types",
+        "description": "Select the fuel types available at this station.",
+        "data": {
+          "products": "Fuel types"
+        }
+      }
+    },
+    "abort": {
+      "cannot_connect": "Unable to retrieve the EuroOil station list. Try again later.",
+      "no_stations": "No active stations were returned by EuroOil.",
+      "no_supported_products": "This station has no supported fuel types."
+    },
+    "error": {
+      "select_product": "Select at least one fuel type."
+    }
+  }
+}

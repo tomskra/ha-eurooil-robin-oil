@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EuroOil",
+        "description": "Vyberte čerpací stanici EuroOil, jejíž ceny chcete sledovat.",
+        "data": {
+          "station_id": "Čerpací stanice"
+        }
+      },
+      "products": {
+        "title": "Druhy paliv",
+        "description": "Vyberte druhy paliv dostupné na této stanici.",
+        "data": {
+          "products": "Druhy paliv"
+        }
+      }
+    },
+    "abort": {
+      "cannot_connect": "Seznam stanic EuroOil se nepodařilo načíst. Zkuste to později.",
+      "no_stations": "EuroOil nevrátil žádné aktivní stanice.",
+      "no_supported_products": "Tato stanice nenabízí podporované druhy paliv."
+    },
+    "error": {
+      "select_product": "Vyberte alespoň jeden druh paliva."
+    }
+  }
+}

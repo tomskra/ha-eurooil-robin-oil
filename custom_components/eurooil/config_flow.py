@@ -81,7 +81,7 @@ class EuroOilConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             await self.async_set_unique_id(f"station_{self._station_id}")
             self._abort_if_unique_id_configured()
             return self.async_create_entry(
-                title=f"EuroOil {self._station_name}",
+                title=f"Eurooil and Robin Oil prices - {self._station_name}",
                 data={
                     CONF_STATION_ID: self._station_id,
                     CONF_STATION_NAME: self._station_name,

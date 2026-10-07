@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "EuroOil",
-        "description": "Select the EuroOil station whose fuel prices you want to monitor.",
+        "title": "Eurooil and Robin Oil prices",
+        "description": "Select a EuroOil or RoBiN OIL station whose fuel prices you want to monitor.",
         "data": {
           "station_id": "Station"
         }
@@ -17,8 +17,8 @@
       }
     },
     "abort": {
-      "cannot_connect": "Unable to retrieve the EuroOil station list. Try again later.",
-      "no_stations": "No active stations were returned by EuroOil.",
+      "cannot_connect": "Unable to retrieve the EuroOil and RoBiN OIL station list. Try again later.",
+      "no_stations": "No active EuroOil or RoBiN OIL stations were returned.",
       "no_supported_products": "This station has no supported fuel types."
     },
     "error": {

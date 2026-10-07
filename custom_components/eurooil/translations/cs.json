@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "EuroOil",
-        "description": "Vyberte čerpací stanici EuroOil, jejíž ceny chcete sledovat.",
+        "title": "Eurooil and Robin Oil prices",
+        "description": "Vyberte stanici EuroOil nebo RoBiN OIL, jejíž ceny chcete sledovat.",
         "data": {
           "station_id": "Čerpací stanice"
         }
@@ -17,8 +17,8 @@
       }
     },
     "abort": {
-      "cannot_connect": "Seznam stanic EuroOil se nepodařilo načíst. Zkuste to později.",
-      "no_stations": "EuroOil nevrátil žádné aktivní stanice.",
+      "cannot_connect": "Seznam stanic EuroOil a RoBiN OIL se nepodařilo načíst. Zkuste to později.",
+      "no_stations": "Nebyla nalezena žádná aktivní stanice EuroOil ani RoBiN OIL.",
       "no_supported_products": "Tato stanice nenabízí podporované druhy paliv."
     },
     "error": {

@@ -1,6 +1,6 @@
-# EuroOil Home Assistant integration
+# Eurooil and Robin Oil prices — Home Assistant integration
 
-This custom integration reads public station and fuel-price data from the EuroOil Srdcovka API. It does not require an account or API key.
+This custom integration reads public station and fuel-price data for EuroOil and RoBiN OIL. It does not require an account or API key.
 
 ## Install
 
@@ -10,7 +10,7 @@ Copy the `custom_components/eurooil` directory into your Home Assistant configur
 <config>/custom_components/eurooil/
 ```
 
-Restart Home Assistant, then open **Settings → Devices & services → Add integration**, search for **EuroOil**, select a station, and choose the fuel types to monitor. All supported fuel types offered at that station are selected by default. Napajedla is available in the station list.
+Restart Home Assistant, then open **Settings → Devices & services → Add integration**, search for **Eurooil and Robin Oil prices**, select a station, and choose the fuel types to monitor. All supported fuel types offered at that station are selected by default. Napajedla is available in the station list.
 
 ## Entities
 
